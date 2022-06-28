@@ -937,6 +937,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "rate-spl-token-lending"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "redeem-logic-lending"
 version = "0.1.0"
 dependencies = [

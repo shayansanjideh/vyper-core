@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/libs/vyper-macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/vyper-math/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/vyper-utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/rate-mock/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/rate-spl-token-lending/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/redeem-logic-lending-fee/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/redeem-logic-lending/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/vyper-core/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

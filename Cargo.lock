@@ -941,6 +941,8 @@ name = "rate-spl-token-lending"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",
+ "anchor-spl",
+ "solana-program",
 ]
 
 [[package]]
@@ -1118,9 +1120,9 @@ checksum = "f2dd574626839106c320a323308629dcb1acfc96e32a8cba364ddc61ac23ee83"
 
 [[package]]
 name = "solana-frozen-abi"
-version = "1.9.25"
+version = "1.9.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9a4169a72d1c598ee818859c040053e057dc1246e0be99eaff0221d3b067b096"
+checksum = "2d4fcb89eb3d0f30bd4b4a31ad1825c9d95cd638509acead00969d7601713288"
 dependencies = [
  "bs58 0.4.0",
  "bv",
@@ -1138,9 +1140,9 @@ dependencies = [
 
 [[package]]
 name = "solana-frozen-abi-macro"
-version = "1.9.25"
+version = "1.9.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "60ac2476ec4845f069fd2f47edd7eac993dde05492fdaf724a28cd27c9775d56"
+checksum = "d63ab101db88ecccd8da34065b9097b88367e0744fdfd05cb7de87b4ede3717f"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1150,9 +1152,9 @@ dependencies = [
 
 [[package]]
 name = "solana-logger"
-version = "1.9.25"
+version = "1.9.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "00b5a3ee6f60aec46f2ec8319de82c28e3787cff983725026156f7578186f2ed"
+checksum = "9ce1805d52fc8277a84c4803c7850c8f41471b57fb0dec7750338955ad6e43e2"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -1161,9 +1163,9 @@ dependencies = [
 
 [[package]]
 name = "solana-program"
-version = "1.9.25"
+version = "1.9.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b9d0e33def9b079816b71431b2df1d56537bc081501f2c2c51c2f5e25cb2aee9"
+checksum = "f5deafc4902425d40197f74166640300dd20b078e4ffd518c1bb56ceb7e01680"
 dependencies = [
  "base64 0.13.0",
  "bincode",
@@ -1204,9 +1206,9 @@ dependencies = [
 
 [[package]]
 name = "solana-sdk-macro"
-version = "1.9.25"
+version = "1.9.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "863a4620043f4f95f7c9d13f4d257494248a46ccf54347197ff498e2c16749df"
+checksum = "3db4c93bd43c91290ad54fe6ff86179a859954f196507c4789a4876d38a62f17"
 dependencies = [
  "bs58 0.4.0",
  "proc-macro2",
